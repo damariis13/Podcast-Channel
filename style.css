@@ -172,11 +172,12 @@
     font-family: 'IBM Plex Mono', monospace, sans-serif;
     background-color: #00F3BB;
     border: none;
-    font-size: 1.1em;
+    font-size: 1.3em;
     cursor: pointer;
     font-weight: 600;
-    padding: 15px 10px;
+    padding: 15px 0px;
     width: 90%;
+    text-align: center;
 }
 
 .btn:hover {
@@ -294,7 +295,7 @@ h2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 80px 30px;
+    padding: 55px 0px;
 }
 
 .contenedor-6 h2 {
@@ -306,6 +307,7 @@ h2 {
 
 .contenedor-6 .btn {
     margin-top: 20px;
+    font-size: 1.2em;
 }
 
 footer {
