@@ -214,7 +214,7 @@ h2 {
 }
 
 .contenedor-3 {
-    width: 100vw;
+    width: 100%;
     margin-top: -110px;
     z-index: 10;
     position: relative;
@@ -236,6 +236,7 @@ h2 {
     text-align: start;
     font-size: 2.6em;
     padding: 20px 20px;
+    margin: 0;
 }
 
 .contenedor-3 p {
@@ -252,7 +253,7 @@ h2 {
 }
 
 .contenedor-4 {
-    width: 100vw;
+    width: 100%;
     height: auto;
 }
 
@@ -557,17 +558,21 @@ footer p {
         .contenedor-5 .h2-2 {
             padding-left: 100px;
             font-size: 2.5em;
-             margin: 0px;
+            margin: 0px;
         }
 
         .cont-img img {
-            width: 33.33vw;
+            width: 33.33%;
+        }
+
+        .contenedor-5 {
+            width: 100%;
         }
 
         .contenedor-5 .figures {
             display: flex;
             justify-content: space-evenly;
-            padding: 0px 100px
+            padding: 0px 100px;
         }
 
         .figures figure {
@@ -582,6 +587,10 @@ footer p {
             font-size: 1.1em;
         }
 
+        .contenedor-6 {
+            width: 100%;
+        }
+
         .contenedor-6 h2 {
             font-size: 2.2em;
             word-spacing: 2px;
@@ -593,6 +602,7 @@ footer p {
         }
 
         footer {
+            width: 100%;
             padding: 12px 60px
         }
 }
